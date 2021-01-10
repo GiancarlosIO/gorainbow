@@ -14,7 +14,7 @@ func rgb(i int) (int, int, int) {
 		int(math.Sin(f*float64(i)+4*math.Pi/3)*127 + 128)
 }
 
-// Rainbow function returns a formated string ready to print it to the shell/terminal
+// Rainbow function returns a formated colorized string ready to print it to the shell/terminal
 func Rainbow(text string) string {
 	var rainbowStr []string
 	for index, value := range text {
