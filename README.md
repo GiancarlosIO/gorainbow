@@ -4,7 +4,7 @@
 
 ## Install
 ```bash
-go get https://github.com/GiancarlosIO/gorainbow
+go get github.com/GiancarlosIO/gorainbow
 ```
 
 ## Example
